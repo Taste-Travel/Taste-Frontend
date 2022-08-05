@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -2306,6 +2307,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["kakao.maps.d.ts", [\
+        ["npm:0.1.32", {\
+          "packageLocation": "./.yarn/cache/kakao.maps.d.ts-npm-0.1.32-3fcf3e6a1c-fe6f5292ae.zip/node_modules/kakao.maps.d.ts/",\
+          "packageDependencies": [\
+            ["kakao.maps.d.ts", "npm:0.1.32"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["language-subtag-registry", [\
         ["npm:0.3.22", {\
           "packageLocation": "./.yarn/cache/language-subtag-registry-npm-0.3.22-e9f79fe04e-8ab70a7e0e.zip/node_modules/language-subtag-registry/",\
@@ -2785,6 +2795,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -2859,6 +2870,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
           "packageDependencies": [\
             ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-kakao-maps-sdk", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/react-kakao-maps-sdk-npm-1.1.1-cb5a2c19ea-5a500c0308.zip/node_modules/react-kakao-maps-sdk/",\
+          "packageDependencies": [\
+            ["react-kakao-maps-sdk", "npm:1.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-kakao-maps-sdk-virtual-1758cf9dc4/0/cache/react-kakao-maps-sdk-npm-1.1.1-cb5a2c19ea-5a500c0308.zip/node_modules/react-kakao-maps-sdk/",\
+          "packageDependencies": [\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
+            ["@types/react", "npm:18.0.15"],\
+            ["@types/react-dom", "npm:18.0.6"],\
+            ["kakao.maps.d.ts", "npm:0.1.32"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
