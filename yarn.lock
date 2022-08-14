@@ -424,6 +424,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/kakaomaps@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@types/kakaomaps@npm:1.1.2"
+  checksum: 63d6f3862ecb4e5646932af41fe7f5e177b75f9493f49ea87930f552733d5ace771699bf25380a7da2a89e15f3f03e3e1c79c6b0876f5a96753b7d3a2f98c6b3
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:18.6.1":
   version: 18.6.1
   resolution: "@types/node@npm:18.6.1"
@@ -1812,6 +1819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kakao.maps.d.ts@npm:^0.1.33":
+  version: 0.1.33
+  resolution: "kakao.maps.d.ts@npm:0.1.33"
+  checksum: 50908b7ff8324530744625669eea01695e2137230fc9ffea300506cc995c7a1c011b8a3d3cad0c982b5a23ccab24417984ad9ccc228da9f9841c5c42e937e200
+  languageName: node
+  linkType: hard
+
 "language-subtag-registry@npm:~0.3.2":
   version: 0.3.22
   resolution: "language-subtag-registry@npm:0.3.22"
@@ -2239,11 +2253,13 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.9.3
     "@emotion/styled": ^11.9.3
+    "@types/kakaomaps": ^1.1.2
     "@types/node": 18.6.1
     "@types/react": 18.0.15
     "@types/react-dom": 18.0.6
     eslint: 8.20.0
     eslint-config-next: 12.2.3
+    kakao.maps.d.ts: ^0.1.33
     next: 12.2.3
     react: 18.2.0
     react-dom: 18.2.0

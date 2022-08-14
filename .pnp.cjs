@@ -35,11 +35,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
             ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@types/kakaomaps", "npm:1.1.2"],\
             ["@types/node", "npm:18.6.1"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
+            ["kakao.maps.d.ts", "npm:0.1.33"],\
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
@@ -578,6 +580,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/kakaomaps", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@types-kakaomaps-npm-1.1.2-7eac4bd224-63d6f3862e.zip/node_modules/@types/kakaomaps/",\
+          "packageDependencies": [\
+            ["@types/kakaomaps", "npm:1.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2314,6 +2325,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["kakao.maps.d.ts", "npm:0.1.32"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.1.33", {\
+          "packageLocation": "./.yarn/cache/kakao.maps.d.ts-npm-0.1.33-58a98ec649-50908b7ff8.zip/node_modules/kakao.maps.d.ts/",\
+          "packageDependencies": [\
+            ["kakao.maps.d.ts", "npm:0.1.33"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["language-subtag-registry", [\
@@ -2787,11 +2805,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["project_travel", "workspace:."],\
             ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
             ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@types/kakaomaps", "npm:1.1.2"],\
             ["@types/node", "npm:18.6.1"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
+            ["kakao.maps.d.ts", "npm:0.1.33"],\
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
