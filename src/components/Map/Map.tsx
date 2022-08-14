@@ -41,6 +41,6 @@ export const MapComponent = () => {
 };
 
 const MapContainer = styled.div`
-  width: 500px;
-  height: 550px;
+  width: 100%;
+  height: 800px;
 `;

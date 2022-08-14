@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       </Head>
       <Maps />
 
-      <div>안녕하세요</div>
+      <h1>Hello Everyone</h1>
     </>
   );
 };
