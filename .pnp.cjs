@@ -33,16 +33,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
-            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@emotion/core", "npm:11.0.0"],\
+            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@types/kakaomaps", "npm:1.1.2"],\
             ["@types/node", "npm:18.6.1"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["emotion-reset", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:3.0.1"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
+            ["kakao.maps.d.ts", "npm:0.1.33"],\
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -106,10 +111,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5801c19e07a62b38d19530b506f75f7c58c9b419e826288f8dec15fc99006b6175e9bd0b0adbebc7d1c07d17920e4477770ca1d08cbe9b964a1f7842ecd0277e#npm:7.18.6", {\
-          "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-b063cea851/0/cache/@babel-plugin-syntax-jsx-npm-7.18.6-3e378d5f11-6d37ea9729.zip/node_modules/@babel/plugin-syntax-jsx/",\
+        ["virtual:43bc2ceae2222dbbd81a45dd1e73e0da05d73de8cc9b0396a72c9de320de21bde82042d01098240fce5750c3bb3f00aa4deaaf337063e57a3cc8c9b34209f5f0#npm:7.18.6", {\
+          "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-bcbb8f3b75/0/cache/@babel-plugin-syntax-jsx-npm-7.18.6-3e378d5f11-6d37ea9729.zip/node_modules/@babel/plugin-syntax-jsx/",\
           "packageDependencies": [\
-            ["@babel/plugin-syntax-jsx", "virtual:5801c19e07a62b38d19530b506f75f7c58c9b419e826288f8dec15fc99006b6175e9bd0b0adbebc7d1c07d17920e4477770ca1d08cbe9b964a1f7842ecd0277e#npm:7.18.6"],\
+            ["@babel/plugin-syntax-jsx", "virtual:43bc2ceae2222dbbd81a45dd1e73e0da05d73de8cc9b0396a72c9de320de21bde82042d01098240fce5750c3bb3f00aa4deaaf337063e57a3cc8c9b34209f5f0#npm:7.18.6"],\
             ["@babel/core", null],\
             ["@babel/helper-plugin-utils", "npm:7.18.9"],\
             ["@types/babel__core", null]\
@@ -154,26 +159,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@emotion/babel-plugin", [\
-        ["npm:11.9.2", {\
-          "packageLocation": "./.yarn/cache/@emotion-babel-plugin-npm-11.9.2-9822f587b1-2d2c4fadd3.zip/node_modules/@emotion/babel-plugin/",\
+        ["npm:11.10.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-babel-plugin-npm-11.10.0-d08d20fe2e-7f1c615e5e.zip/node_modules/@emotion/babel-plugin/",\
           "packageDependencies": [\
-            ["@emotion/babel-plugin", "npm:11.9.2"]\
+            ["@emotion/babel-plugin", "npm:11.10.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d015311abf53716e490642e4b7ddef2e661c9b8da893c867c8eedd9ff5a77908177c36faebfa4490418a9067ce5c4c9abfd4f7cb190029d5f1d1b59142dd293b#npm:11.9.2", {\
-          "packageLocation": "./.yarn/__virtual__/@emotion-babel-plugin-virtual-5801c19e07/0/cache/@emotion-babel-plugin-npm-11.9.2-9822f587b1-2d2c4fadd3.zip/node_modules/@emotion/babel-plugin/",\
+        ["virtual:0e933f94a4c6141734efcb72e4dafd9400e97a84cfa55236c0a606d834d643a286c2809087682786b5f9c6a87fc545b6b79b74f86c7d9d544ea462121dae422c#npm:11.10.0", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-babel-plugin-virtual-43bc2ceae2/0/cache/@emotion-babel-plugin-npm-11.10.0-d08d20fe2e-7f1c615e5e.zip/node_modules/@emotion/babel-plugin/",\
           "packageDependencies": [\
-            ["@emotion/babel-plugin", "virtual:d015311abf53716e490642e4b7ddef2e661c9b8da893c867c8eedd9ff5a77908177c36faebfa4490418a9067ce5c4c9abfd4f7cb190029d5f1d1b59142dd293b#npm:11.9.2"],\
+            ["@emotion/babel-plugin", "virtual:0e933f94a4c6141734efcb72e4dafd9400e97a84cfa55236c0a606d834d643a286c2809087682786b5f9c6a87fc545b6b79b74f86c7d9d544ea462121dae422c#npm:11.10.0"],\
             ["@babel/core", null],\
             ["@babel/helper-module-imports", "npm:7.18.6"],\
-            ["@babel/plugin-syntax-jsx", "virtual:5801c19e07a62b38d19530b506f75f7c58c9b419e826288f8dec15fc99006b6175e9bd0b0adbebc7d1c07d17920e4477770ca1d08cbe9b964a1f7842ecd0277e#npm:7.18.6"],\
+            ["@babel/plugin-syntax-jsx", "virtual:43bc2ceae2222dbbd81a45dd1e73e0da05d73de8cc9b0396a72c9de320de21bde82042d01098240fce5750c3bb3f00aa4deaaf337063e57a3cc8c9b34209f5f0#npm:7.18.6"],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["@emotion/hash", "npm:0.8.0"],\
-            ["@emotion/memoize", "npm:0.7.5"],\
-            ["@emotion/serialize", "npm:1.0.4"],\
+            ["@emotion/hash", "npm:0.9.0"],\
+            ["@emotion/memoize", "npm:0.8.0"],\
+            ["@emotion/serialize", "npm:1.1.0"],\
             ["@types/babel__core", null],\
-            ["babel-plugin-macros", "npm:2.8.0"],\
+            ["babel-plugin-macros", "npm:3.1.0"],\
             ["convert-source-map", "npm:1.8.0"],\
             ["escape-string-regexp", "npm:4.0.0"],\
             ["find-root", "npm:1.1.0"],\
@@ -188,66 +193,75 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@emotion/cache", [\
-        ["npm:11.9.3", {\
-          "packageLocation": "./.yarn/cache/@emotion-cache-npm-11.9.3-19440f4c2c-6e0aab2fa5.zip/node_modules/@emotion/cache/",\
+        ["npm:11.10.1", {\
+          "packageLocation": "./.yarn/cache/@emotion-cache-npm-11.10.1-db7d50c323-950203c5a4.zip/node_modules/@emotion/cache/",\
           "packageDependencies": [\
-            ["@emotion/cache", "npm:11.9.3"],\
-            ["@emotion/memoize", "npm:0.7.5"],\
-            ["@emotion/sheet", "npm:1.1.1"],\
-            ["@emotion/utils", "npm:1.1.0"],\
-            ["@emotion/weak-memoize", "npm:0.2.5"],\
+            ["@emotion/cache", "npm:11.10.1"],\
+            ["@emotion/memoize", "npm:0.8.0"],\
+            ["@emotion/sheet", "npm:1.2.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
+            ["@emotion/weak-memoize", "npm:0.3.0"],\
             ["stylis", "npm:4.0.13"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@emotion/hash", [\
-        ["npm:0.8.0", {\
-          "packageLocation": "./.yarn/cache/@emotion-hash-npm-0.8.0-0104f4bbf3-4b35d88a97.zip/node_modules/@emotion/hash/",\
+      ["@emotion/core", [\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-core-npm-11.0.0-03ccf93fb4-d9beeff0c1.zip/node_modules/@emotion/core/",\
           "packageDependencies": [\
-            ["@emotion/hash", "npm:0.8.0"]\
+            ["@emotion/core", "npm:11.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emotion/hash", [\
+        ["npm:0.9.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-hash-npm-0.9.0-efbc0b3f3f-b63428f7c8.zip/node_modules/@emotion/hash/",\
+          "packageDependencies": [\
+            ["@emotion/hash", "npm:0.9.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/is-prop-valid", [\
-        ["npm:1.1.3", {\
-          "packageLocation": "./.yarn/cache/@emotion-is-prop-valid-npm-1.1.3-d70163c49e-511997c3bb.zip/node_modules/@emotion/is-prop-valid/",\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-is-prop-valid-npm-1.2.0-332d343e3d-cc7a19850a.zip/node_modules/@emotion/is-prop-valid/",\
           "packageDependencies": [\
-            ["@emotion/is-prop-valid", "npm:1.1.3"],\
-            ["@emotion/memoize", "npm:0.7.5"]\
+            ["@emotion/is-prop-valid", "npm:1.2.0"],\
+            ["@emotion/memoize", "npm:0.8.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/memoize", [\
-        ["npm:0.7.5", {\
-          "packageLocation": "./.yarn/cache/@emotion-memoize-npm-0.7.5-e5e7e9eeca-83da8d4a76.zip/node_modules/@emotion/memoize/",\
+        ["npm:0.8.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-memoize-npm-0.8.0-c5dd451828-c87bb110b8.zip/node_modules/@emotion/memoize/",\
           "packageDependencies": [\
-            ["@emotion/memoize", "npm:0.7.5"]\
+            ["@emotion/memoize", "npm:0.8.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/react", [\
-        ["npm:11.9.3", {\
-          "packageLocation": "./.yarn/cache/@emotion-react-npm-11.9.3-dcd9c32ac6-19bc7205e8.zip/node_modules/@emotion/react/",\
+        ["npm:11.10.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-react-npm-11.10.0-06b9abb1e2-6d692e43ff.zip/node_modules/@emotion/react/",\
           "packageDependencies": [\
-            ["@emotion/react", "npm:11.9.3"]\
+            ["@emotion/react", "npm:11.10.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3", {\
-          "packageLocation": "./.yarn/__virtual__/@emotion-react-virtual-d015311abf/0/cache/@emotion-react-npm-11.9.3-dcd9c32ac6-19bc7205e8.zip/node_modules/@emotion/react/",\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-react-virtual-0e933f94a4/0/cache/@emotion-react-npm-11.10.0-06b9abb1e2-6d692e43ff.zip/node_modules/@emotion/react/",\
           "packageDependencies": [\
-            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
             ["@babel/core", null],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["@emotion/babel-plugin", "virtual:d015311abf53716e490642e4b7ddef2e661c9b8da893c867c8eedd9ff5a77908177c36faebfa4490418a9067ce5c4c9abfd4f7cb190029d5f1d1b59142dd293b#npm:11.9.2"],\
-            ["@emotion/cache", "npm:11.9.3"],\
-            ["@emotion/serialize", "npm:1.0.4"],\
-            ["@emotion/utils", "npm:1.1.0"],\
-            ["@emotion/weak-memoize", "npm:0.2.5"],\
+            ["@emotion/babel-plugin", "virtual:0e933f94a4c6141734efcb72e4dafd9400e97a84cfa55236c0a606d834d643a286c2809087682786b5f9c6a87fc545b6b79b74f86c7d9d544ea462121dae422c#npm:11.10.0"],\
+            ["@emotion/cache", "npm:11.10.1"],\
+            ["@emotion/serialize", "npm:1.1.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
+            ["@emotion/weak-memoize", "npm:0.3.0"],\
             ["@types/babel__core", null],\
             ["@types/react", "npm:18.0.15"],\
             ["hoist-non-react-statics", "npm:3.3.2"],\
@@ -263,47 +277,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@emotion/serialize", [\
-        ["npm:1.0.4", {\
-          "packageLocation": "./.yarn/cache/@emotion-serialize-npm-1.0.4-5d4f6d63ee-e8cc342056.zip/node_modules/@emotion/serialize/",\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-serialize-npm-1.1.0-492b26b387-8f22f83194.zip/node_modules/@emotion/serialize/",\
           "packageDependencies": [\
-            ["@emotion/serialize", "npm:1.0.4"],\
-            ["@emotion/hash", "npm:0.8.0"],\
-            ["@emotion/memoize", "npm:0.7.5"],\
-            ["@emotion/unitless", "npm:0.7.5"],\
-            ["@emotion/utils", "npm:1.1.0"],\
+            ["@emotion/serialize", "npm:1.1.0"],\
+            ["@emotion/hash", "npm:0.9.0"],\
+            ["@emotion/memoize", "npm:0.8.0"],\
+            ["@emotion/unitless", "npm:0.8.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
             ["csstype", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/sheet", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/@emotion-sheet-npm-1.1.1-9e89b4e29a-b916ac6657.zip/node_modules/@emotion/sheet/",\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-sheet-npm-1.2.0-3bb8dd5fba-b3771e4796.zip/node_modules/@emotion/sheet/",\
           "packageDependencies": [\
-            ["@emotion/sheet", "npm:1.1.1"]\
+            ["@emotion/sheet", "npm:1.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/styled", [\
-        ["npm:11.9.3", {\
-          "packageLocation": "./.yarn/cache/@emotion-styled-npm-11.9.3-01b80e031e-16d9ef8c58.zip/node_modules/@emotion/styled/",\
+        ["npm:11.10.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-styled-npm-11.10.0-ee745c48ee-f2a3e9798f.zip/node_modules/@emotion/styled/",\
           "packageDependencies": [\
-            ["@emotion/styled", "npm:11.9.3"]\
+            ["@emotion/styled", "npm:11.10.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3", {\
-          "packageLocation": "./.yarn/__virtual__/@emotion-styled-virtual-7aa93cb183/0/cache/@emotion-styled-npm-11.9.3-01b80e031e-16d9ef8c58.zip/node_modules/@emotion/styled/",\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-styled-virtual-90d1000f8f/0/cache/@emotion-styled-npm-11.10.0-ee745c48ee-f2a3e9798f.zip/node_modules/@emotion/styled/",\
           "packageDependencies": [\
-            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
             ["@babel/core", null],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["@emotion/babel-plugin", "virtual:d015311abf53716e490642e4b7ddef2e661c9b8da893c867c8eedd9ff5a77908177c36faebfa4490418a9067ce5c4c9abfd4f7cb190029d5f1d1b59142dd293b#npm:11.9.2"],\
-            ["@emotion/is-prop-valid", "npm:1.1.3"],\
-            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
-            ["@emotion/serialize", "npm:1.0.4"],\
-            ["@emotion/utils", "npm:1.1.0"],\
+            ["@emotion/babel-plugin", "virtual:0e933f94a4c6141734efcb72e4dafd9400e97a84cfa55236c0a606d834d643a286c2809087682786b5f9c6a87fc545b6b79b74f86c7d9d544ea462121dae422c#npm:11.10.0"],\
+            ["@emotion/is-prop-valid", "npm:1.2.0"],\
+            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@emotion/serialize", "npm:1.1.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
             ["@types/babel__core", null],\
             ["@types/emotion__react", null],\
             ["@types/react", "npm:18.0.15"],\
@@ -321,28 +335,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@emotion/unitless", [\
-        ["npm:0.7.5", {\
-          "packageLocation": "./.yarn/cache/@emotion-unitless-npm-0.7.5-14e1171640-f976e5345b.zip/node_modules/@emotion/unitless/",\
+        ["npm:0.8.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-unitless-npm-0.8.0-aa125284fa-176141117e.zip/node_modules/@emotion/unitless/",\
           "packageDependencies": [\
-            ["@emotion/unitless", "npm:0.7.5"]\
+            ["@emotion/unitless", "npm:0.8.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/utils", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/@emotion-utils-npm-1.1.0-cab2893c1f-d3b681ca3a.zip/node_modules/@emotion/utils/",\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-utils-npm-1.2.0-337992f692-55457a49dd.zip/node_modules/@emotion/utils/",\
           "packageDependencies": [\
-            ["@emotion/utils", "npm:1.1.0"]\
+            ["@emotion/utils", "npm:1.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@emotion/weak-memoize", [\
-        ["npm:0.2.5", {\
-          "packageLocation": "./.yarn/cache/@emotion-weak-memoize-npm-0.2.5-9f2e49e7c8-27d402b0c6.zip/node_modules/@emotion/weak-memoize/",\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-weak-memoize-npm-0.3.0-705bdd075b-f43ef4c8b7.zip/node_modules/@emotion/weak-memoize/",\
           "packageDependencies": [\
-            ["@emotion/weak-memoize", "npm:0.2.5"]\
+            ["@emotion/weak-memoize", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -577,6 +591,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/kakaomaps", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@types-kakaomaps-npm-1.1.2-7eac4bd224-63d6f3862e.zip/node_modules/@types/kakaomaps/",\
+          "packageDependencies": [\
+            ["@types/kakaomaps", "npm:1.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -897,12 +920,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["babel-plugin-macros", [\
-        ["npm:2.8.0", {\
-          "packageLocation": "./.yarn/cache/babel-plugin-macros-npm-2.8.0-451367d7e7-59b09a21cf.zip/node_modules/babel-plugin-macros/",\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/babel-plugin-macros-npm-3.1.0-320e781f4e-765de4abeb.zip/node_modules/babel-plugin-macros/",\
           "packageDependencies": [\
-            ["babel-plugin-macros", "npm:2.8.0"],\
+            ["babel-plugin-macros", "npm:3.1.0"],\
             ["@babel/runtime", "npm:7.18.9"],\
-            ["cosmiconfig", "npm:6.0.0"],\
+            ["cosmiconfig", "npm:7.0.1"],\
             ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
           ],\
           "linkType": "HARD"\
@@ -1051,10 +1074,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cosmiconfig", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/cosmiconfig-npm-6.0.0-cb7d64a2b9-8eed7c854b.zip/node_modules/cosmiconfig/",\
+        ["npm:7.0.1", {\
+          "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.0.1-dd19ae2403-4be63e7117.zip/node_modules/cosmiconfig/",\
           "packageDependencies": [\
-            ["cosmiconfig", "npm:6.0.0"],\
+            ["cosmiconfig", "npm:7.0.1"],\
             ["@types/parse-json", "npm:4.0.0"],\
             ["import-fresh", "npm:3.3.0"],\
             ["parse-json", "npm:5.2.0"],\
@@ -1212,6 +1235,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/emoji-regex-npm-9.2.2-e6fac8d058-8487182da7.zip/node_modules/emoji-regex/",\
           "packageDependencies": [\
             ["emoji-regex", "npm:9.2.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["emotion-reset", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "npm:3.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:3.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/emotion-reset-virtual-566645ca22/0/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:3.0.1"],\
+            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@types/emotion__react", null]\
+          ],\
+          "packagePeers": [\
+            "@emotion/react",\
+            "@types/emotion__react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2306,6 +2351,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["kakao.maps.d.ts", [\
+        ["npm:0.1.32", {\
+          "packageLocation": "./.yarn/cache/kakao.maps.d.ts-npm-0.1.32-3fcf3e6a1c-fe6f5292ae.zip/node_modules/kakao.maps.d.ts/",\
+          "packageDependencies": [\
+            ["kakao.maps.d.ts", "npm:0.1.32"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.1.33", {\
+          "packageLocation": "./.yarn/cache/kakao.maps.d.ts-npm-0.1.33-58a98ec649-50908b7ff8.zip/node_modules/kakao.maps.d.ts/",\
+          "packageDependencies": [\
+            ["kakao.maps.d.ts", "npm:0.1.33"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["language-subtag-registry", [\
         ["npm:0.3.22", {\
           "packageLocation": "./.yarn/cache/language-subtag-registry-npm-0.3.22-e9f79fe04e-8ab70a7e0e.zip/node_modules/language-subtag-registry/",\
@@ -2775,16 +2836,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["project_travel", "workspace:."],\
-            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
-            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.9.3"],\
+            ["@emotion/core", "npm:11.0.0"],\
+            ["@emotion/react", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@emotion/styled", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:11.10.0"],\
+            ["@types/kakaomaps", "npm:1.1.2"],\
             ["@types/node", "npm:18.6.1"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["emotion-reset", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:3.0.1"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
+            ["kakao.maps.d.ts", "npm:0.1.33"],\
             ["next", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:12.2.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -2859,6 +2925,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
           "packageDependencies": [\
             ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-kakao-maps-sdk", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/react-kakao-maps-sdk-npm-1.1.1-cb5a2c19ea-5a500c0308.zip/node_modules/react-kakao-maps-sdk/",\
+          "packageDependencies": [\
+            ["react-kakao-maps-sdk", "npm:1.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-kakao-maps-sdk-virtual-1758cf9dc4/0/cache/react-kakao-maps-sdk-npm-1.1.1-cb5a2c19ea-5a500c0308.zip/node_modules/react-kakao-maps-sdk/",\
+          "packageDependencies": [\
+            ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
+            ["@types/react", "npm:18.0.15"],\
+            ["@types/react-dom", "npm:18.0.6"],\
+            ["kakao.maps.d.ts", "npm:0.1.32"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

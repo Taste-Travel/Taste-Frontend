@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { Maps } from "../components/Map";
 
 const Home: NextPage = () => {
   return (
@@ -7,6 +8,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Taste travel</title>
       </Head>
+      <Maps />
+
+      <h1>Hello Everyone</h1>
     </>
   );
 };
