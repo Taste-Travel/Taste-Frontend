@@ -1,5 +1,4 @@
-import { useCallback, useEffect, useRef } from "react";
-import Script from "next/script";
+import { useEffect } from "react";
 import styled from "@emotion/styled";
 const MapAPI = process.env.NEXT_PUBLIC_KAKAOMAP_APPKEY;
 
@@ -42,5 +41,5 @@ export const MapComponent = () => {
 
 const MapContainer = styled.div`
   width: 100%;
-  height: 800px;
+  height: 92vh;
 `;
