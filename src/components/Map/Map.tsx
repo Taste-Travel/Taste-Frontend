@@ -30,7 +30,7 @@ export const MapComponent = () => {
     mapScript.addEventListener("load", onLoadKakaoMap);
 
     return () => mapScript.removeEventListener("load", onLoadKakaoMap);
-  });
+  }, []);
 
   return (
     <>

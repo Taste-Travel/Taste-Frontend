@@ -1,12 +1,25 @@
 import styled from "@emotion/styled";
+import { useEffect, useState } from "react";
 
-export const SideButtonComponent = () => {
-  const BtnClick = () => {
-    console.log("click!");
-  };
+interface MarkProps {
+  Mark: boolean;
+}
+
+export const SideButtonComponent = ({ Mark }: { Mark: boolean }) => {
+  const [arrow, setArrow] = useState<string>(">");
+
+  useEffect(() => {
+    if (Mark === true) {
+      setArrow("<");
+    } else {
+      setArrow(">");
+    }
+  });
+
+  console.log("Mark : ", Mark);
   return (
     <>
-      <Button onClick={BtnClick}>{">"}</Button>
+      <Button>{arrow}</Button>
     </>
   );
 };
