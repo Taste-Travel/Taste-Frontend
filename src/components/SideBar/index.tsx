@@ -8,7 +8,6 @@ const SideBar = () => {
   // const sideToggle = useSideStore((state) => state.sidebarOn);
 
   if (sidebarOn === true) {
-    console.log("hi");
     return (
       <S.SideBar>
         <Drawer />
@@ -22,7 +21,6 @@ const SideBar = () => {
       </S.SideBar>
     );
   } else {
-    console.log("bye");
     return (
       <S.SideBar>
         <div

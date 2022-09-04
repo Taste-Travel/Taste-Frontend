@@ -1,7 +1,12 @@
 import styled from "@emotion/styled";
 
-export const Header = styled.header`
-  width: 100%;
+interface sideProps {
+  side: boolean;
+}
+
+export const Header = styled.header<sideProps>`
+  /* width: 100vw; */
+  width: ${(props) => (props.side ? "90vw" : "100vw")};
   height: 8vh;
   display: flex;
   justify-content: space-between;

@@ -1,12 +1,16 @@
 import Image from "next/image";
+import { useSideStore } from "../../Store/Store";
 import * as S from "./style";
 
 export const HeaderComponent = () => {
   const Refresh = () => {
     location.reload();
   };
+
+  const { sidebarOn } = useSideStore();
+
   return (
-    <S.Header>
+    <S.Header side={sidebarOn}>
       <S.Logo onClick={Refresh}>
         <Image
           src={"/images/HeadLogo.png"}
