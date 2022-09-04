@@ -1,24 +1,20 @@
 import { Header } from "../Header";
 import { Maps } from "../Map";
-import styled from "@emotion/styled";
 import SideBar from "../SideBar";
+import * as S from "./style";
 
-export const MainPageCompoent = (onClick: () => void) => {
+export const MainPageCompoent = () => {
   return (
     <>
-      <Main>
-        <SideBar />
-        <Header />
-        <Maps />
-      </Main>
+      <S.Main>
+        <S.Side>
+          <SideBar />
+        </S.Side>
+        <S.Body>
+          <Header />
+          <Maps />
+        </S.Body>
+      </S.Main>
     </>
   );
 };
-
-const Main = styled.div`
-  position: relative;
-  width: 100%;
-  height: 100%;
-`;
-
-const Side = styled.aside``;

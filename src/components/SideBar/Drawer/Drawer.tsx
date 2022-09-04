@@ -11,5 +11,6 @@ export const DrawerComponent = () => {
 
 const Drawers = styled.div`
   width: 300px;
-  height: 700px;
+  height: 100vh;
+  border: 1px solid black;
 `;

@@ -40,6 +40,6 @@ export const MapComponent = () => {
 };
 
 const MapContainer = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 92vh;
 `;

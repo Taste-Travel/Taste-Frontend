@@ -1,5 +1,5 @@
 import Image from "next/image";
-import * as S from "./HeaderStyle";
+import * as S from "./style";
 
 export const HeaderComponent = () => {
   const Refresh = () => {

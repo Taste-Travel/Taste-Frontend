@@ -1,22 +1,15 @@
 import styled from "@emotion/styled";
 import { useEffect, useState } from "react";
+import { useSideStore } from "../../../Store/Store";
 
-interface MarkProps {
-  Mark: boolean;
-}
-
-export const SideButtonComponent = ({ Mark }: { Mark: boolean }) => {
+export const SideButtonComponent = () => {
   const [arrow, setArrow] = useState<string>(">");
+  const { sidebarOn } = useSideStore();
 
   useEffect(() => {
-    if (Mark === true) {
-      setArrow("<");
-    } else {
-      setArrow(">");
-    }
+    sidebarOn ? setArrow("<") : setArrow(">");
   });
 
-  console.log("Mark : ", Mark);
   return (
     <>
       <Button>{arrow}</Button>

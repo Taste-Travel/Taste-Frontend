@@ -48,7 +48,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
             ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
+            ["zustand", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:4.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2851,7 +2852,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:18.2.0"],\
             ["react-kakao-maps-sdk", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:1.1.1"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
+            ["zustand", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:4.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3493,6 +3495,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yaml-npm-1.10.2-0e780aebdf-ce4ada136e.zip/node_modules/yaml/",\
           "packageDependencies": [\
             ["yaml", "npm:1.10.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zustand", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/zustand-npm-4.1.1-60b4581ecd-03eefb193e.zip/node_modules/zustand/",\
+          "packageDependencies": [\
+            ["zustand", "npm:4.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:4.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/zustand-virtual-a94a5b8955/0/cache/zustand-npm-4.1.1-60b4581ecd-03eefb193e.zip/node_modules/zustand/",\
+          "packageDependencies": [\
+            ["zustand", "virtual:54e544fb899f91fe512ffbcb8189bdf0ccac9162bc293c9b968fd198939e8980bde5dc56d1ca390c0b15874e9d9e56e55a799c026c2c846d2cd4c17c4345ae9a#npm:4.1.1"],\
+            ["@types/immer", null],\
+            ["@types/react", "npm:18.0.15"],\
+            ["immer", null],\
+            ["react", "npm:18.2.0"],\
+            ["use-sync-external-store", "virtual:af10645c8bde3bdd725ba10391ba15deb10fc7e956f9d89288177ef126f9b7126441bf4fccbfb525781bf80b58b9e8a4411c6eaeb51aa8574aaaeae323468f3b#npm:1.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/immer",\
+            "@types/react",\
+            "immer",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

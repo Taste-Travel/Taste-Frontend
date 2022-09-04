@@ -1,31 +1,36 @@
-import { useState } from "react";
 import { Drawer } from "./Drawer";
 import { SideButton } from "./SideButton";
 import * as S from "./style";
+import { useSideStore } from "../../Store/Store";
+
 const SideBar = () => {
-  const [sidebarOn, setSidebarOn] = useState<boolean>(false);
-  const [mark, setMark] = useState<boolean>(false);
-  const BtnClick = () => {
-    setSidebarOn(!sidebarOn);
-    setMark(!mark);
-  };
+  const { sidebarOn, sideToggle } = useSideStore();
+  // const sideToggle = useSideStore((state) => state.sidebarOn);
 
   if (sidebarOn === true) {
-    console.log("true : ", mark);
+    console.log("hi");
     return (
       <S.SideBar>
         <Drawer />
-        <div onClick={BtnClick}>
-          <SideButton Mark={mark} />
+        <div
+          onClick={() => {
+            sideToggle();
+          }}
+        >
+          <SideButton />
         </div>
       </S.SideBar>
     );
   } else {
-    console.log("false : ", mark);
+    console.log("bye");
     return (
       <S.SideBar>
-        <div onClick={BtnClick}>
-          <SideButton Mark={mark} />
+        <div
+          onClick={() => {
+            sideToggle();
+          }}
+        >
+          <SideButton />
         </div>
       </S.SideBar>
     );
