@@ -6,14 +6,15 @@ interface sideProps {
 
 export const Header = styled.header<sideProps>`
   /* width: 100vw; */
-  width: ${(props) => (props.side ? "90vw" : "100vw")};
+  width: ${(props) => (props.side ? "82vw" : "100vw")};
   height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const Logo = styled.div`
+export const Logo = styled.div<sideProps>`
+  visibility: ${(props) => (props.side ? "hidden" : "visible")};
   margin-left: 7vw;
 `;
 

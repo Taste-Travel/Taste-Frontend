@@ -11,7 +11,7 @@ export const HeaderComponent = () => {
 
   return (
     <S.Header side={sidebarOn}>
-      <S.Logo onClick={Refresh}>
+      <S.Logo onClick={Refresh} side={sidebarOn}>
         <Image
           src={"/images/HeadLogo.png"}
           alt="HeaderLogo"
