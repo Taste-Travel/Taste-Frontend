@@ -1,16 +1,23 @@
-import React from "react";
-import styled from "@emotion/styled";
+import Image from "next/image";
+import * as S from "./style";
 
 export const DrawerComponent = () => {
   return (
     <>
-      <Drawers>hi</Drawers>
+      <S.Drawers>
+        <S.Top>
+          <Image
+            src={"/images/HeadLogo.png"}
+            alt="HeaderLogo"
+            width={144}
+            height={76}
+          />
+          <S.Restaurant_Photo></S.Restaurant_Photo>
+          <S.Restaurant_Name></S.Restaurant_Name>
+          <S.Restaurant_Evaluation></S.Restaurant_Evaluation>
+        </S.Top>
+        <S.Bottom></S.Bottom>
+      </S.Drawers>
     </>
   );
 };
-
-const Drawers = styled.div`
-  width: 300px;
-  height: 100vh;
-  border: 1px solid black;
-`;
