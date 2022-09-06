@@ -6,7 +6,7 @@ interface sideProps {
 
 export const Header = styled.header<sideProps>`
   /* width: 100vw; */
-  width: ${(props) => (props.side ? "82vw" : "100vw")};
+  width: ${(props) => (props.side ? "79.5vw" : "100vw")};
   height: 8vh;
   display: flex;
   justify-content: space-between;
