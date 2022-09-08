@@ -28,7 +28,7 @@ export const Restaurant_Name = styled.h1`
 
 export const Restaurant_Evaluation = styled.p`
   align-self: flex-start;
-  margin-left: 85px;
+  margin-left: 80px;
   padding-bottom: 20px;
   font-size: 1.3rem;
   font-weight: 500;

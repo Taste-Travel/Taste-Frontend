@@ -37,7 +37,7 @@ export const MapComponent = () => {
   // sdk 오류로 ... js로 했움..
   return (
     <>
-      <MapContainer side={sidebarOn} id="map" />
+      <MapContainer id="map" />
     </>
   );
 };
