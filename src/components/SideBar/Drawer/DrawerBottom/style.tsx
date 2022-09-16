@@ -4,7 +4,7 @@ export const Bottom = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  height: 60vh;
   .copyright {
     font-size: 0.8rem;
     color: #868686;
