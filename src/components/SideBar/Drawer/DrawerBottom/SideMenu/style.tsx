@@ -8,6 +8,7 @@ export const Board = styled.table`
   box-shadow: inset 1px 1px 4px #646262;
   border-radius: 10px;
   background: #fffbef;
+  margin-bottom: 20px;
 `;
 
 export const Menu = styled.tr``;
