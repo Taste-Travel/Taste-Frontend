@@ -13,8 +13,12 @@ export const BottomComponent = () => {
   return (
     <S.Bottom>
       <S.Choice>
-        <S.Menu onClick={choiceMenu}>메뉴</S.Menu>
-        <S.Review onClick={choiceReview}>리뷰</S.Review>
+        <S.Menu onClick={choiceMenu} choice={choice}>
+          메뉴
+        </S.Menu>
+        <S.Review onClick={choiceReview} choice={choice}>
+          리뷰
+        </S.Review>
       </S.Choice>
       <MorR />
       <p className="copyright">© 2022. TasteTravel All rights reserved.</p>

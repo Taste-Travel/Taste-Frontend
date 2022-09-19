@@ -19,10 +19,19 @@ export const Choice = styled.div`
   height: 100px;
 `;
 
-export const Menu = styled.button`
+interface choiceProps {
+  choice: boolean;
+}
+
+export const Menu = styled.button<choiceProps>`
+  background: ${(props) => (props.choice ? "#FFEEB3" : "#FFFFFF")};
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
   font-size: 1.4rem;
 `;
 
-export const Review = styled.button`
-  font-size: 1.4rem;
+export const Review = styled(Menu)<choiceProps>`
+  background: ${(props) => (props.choice ? "#FFFFFF" : "#FFEEB3")};
 `;
