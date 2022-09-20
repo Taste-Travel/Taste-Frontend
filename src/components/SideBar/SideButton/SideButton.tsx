@@ -20,6 +20,8 @@ export const SideButtonComponent = () => {
 export const Button = styled.button`
   width: 25px;
   height: 50px;
+  background: #ffffff;
+  border: none;
   position: absolute;
   margin-top: 47vh;
   z-index: 99;

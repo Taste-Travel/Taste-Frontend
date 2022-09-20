@@ -25,7 +25,7 @@ interface choiceProps {
 
 export const Menu = styled.button<choiceProps>`
   background: ${(props) => (props.choice ? "#FFEEB3" : "#FFFFFF")};
-  width: 130px;
+  width: 140px;
   height: 40px;
   border-radius: 30px;
   border: none;
