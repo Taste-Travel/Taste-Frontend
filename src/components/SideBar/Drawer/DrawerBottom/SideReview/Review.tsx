@@ -18,11 +18,36 @@ const InfoList = [
     name: "모띠모띠",
     contents: "아 여기 위생이 별로더라구요..",
   },
+  {
+    id: 4,
+    name: "민민모띠모띠",
+    contents: "아 여기 위생이 별로더라구요..",
+  },
+  // {
+  //   id: 5,
+  //   name: "모띠모모모띠",
+  //   contents: "아 여기 위생이 별로더라구요..",
+  // },
+  // {
+  //   id: 6,
+  //   name: "모띠모모모띠",
+  //   contents: "아 여기 위생이 별로더라구요..",
+  // },
+  // {
+  //   id: 7,
+  //   name: "모띠모모모띠",
+  //   contents: "아 여기 위생이 별로더라구요..",
+  // },
+  // {
+  //   id: 8,
+  //   name: "모띠모모모띠",
+  //   contents: "아 여기 위생이 별로더라구요..",
+  // },
 ];
 
 const Review = () => {
   return (
-    <S.Review>
+    <>
       <S.Reviews>
         {InfoList.map((info) => (
           <S.Info>
@@ -38,8 +63,9 @@ const Review = () => {
           </S.Info>
         ))}
       </S.Reviews>
+
       <S.WriteReview>리뷰작성</S.WriteReview>
-    </S.Review>
+    </>
   );
 };
 

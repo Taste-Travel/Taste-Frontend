@@ -3,12 +3,13 @@ import styled from "@emotion/styled";
 export const Review = styled.div``;
 
 export const Reviews = styled.div`
-  height: 460px;
+  overflow: auto;
+  height: 480px;
   margin-bottom: 20px;
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 `;
 
 export const Info = styled.div`
@@ -17,16 +18,17 @@ export const Info = styled.div`
   border-radius: 10px;
   box-shadow: inset 1px 1px 2px #646262;
   background: #fffbef;
+  margin-bottom: 27px;
   .review {
     display: flex;
-    margin: 20px 0 0 15px;
+    padding: 20px 0 0 15px;
   }
   .Info {
     display: flex;
     flex-direction: column;
-    margin: 10px 0 0 10px;
+    padding: 10px 0 0 10px;
     .contents {
-      margin-top: 10px;
+      padding-top: 10px;
     }
   }
 `;
@@ -46,6 +48,6 @@ export const WriteReview = styled.button`
   background: #ffeeb3;
   border: none;
   border-radius: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   filter: drop-shadow(1px 1px 1px #d9d9d9);
 `;
