@@ -26,9 +26,15 @@ const Review = () => {
       <S.Reviews>
         {InfoList.map((info) => (
           <S.Info>
-            <S.Profile>사진</S.Profile>
-            <S.ProfileName>{info.name}</S.ProfileName>
-            <S.Contents>{info.contents}</S.Contents>
+            <p className="review">
+              <S.Profile>
+                <Image src={"/images/SideImage.png"} width={40} height={40} />
+              </S.Profile>
+              <p className="Info">
+                <S.ProfileName>{info.name}</S.ProfileName>
+                <S.Contents className="contents">{info.contents}</S.Contents>
+              </p>
+            </p>
           </S.Info>
         ))}
       </S.Reviews>
