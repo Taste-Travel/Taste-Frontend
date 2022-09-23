@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useRef } from "react";
-import Script from "next/script";
+import { useEffect } from "react";
 import styled from "@emotion/styled";
+import { useSideStore } from "../../Store/Store";
 const MapAPI = process.env.NEXT_PUBLIC_KAKAOMAP_APPKEY;
 
 declare global {
@@ -10,6 +10,8 @@ declare global {
 }
 
 export const MapComponent = () => {
+  const { sidebarOn } = useSideStore();
+
   useEffect(() => {
     const mapScript = document.createElement("script");
 
@@ -31,8 +33,8 @@ export const MapComponent = () => {
     mapScript.addEventListener("load", onLoadKakaoMap);
 
     return () => mapScript.removeEventListener("load", onLoadKakaoMap);
-  });
-
+  }, []);
+  // sdk 오류로 ... js로 했움..
   return (
     <>
       <MapContainer id="map" />
@@ -42,5 +44,5 @@ export const MapComponent = () => {
 
 const MapContainer = styled.div`
   width: 100%;
-  height: 800px;
+  height: 92vh;
 `;
