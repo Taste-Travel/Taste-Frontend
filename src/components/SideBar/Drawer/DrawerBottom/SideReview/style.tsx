@@ -6,18 +6,18 @@ export const Reviews = styled.div`
   overflow: auto;
   height: 480px;
   margin-bottom: 20px;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 `;
 
-export const Info = styled.div`
+interface InfoColor {
+  backcolor: number;
+}
+
+export const Info = styled.div<InfoColor>`
   width: 340px;
   height: 130px;
   border-radius: 10px;
   box-shadow: inset 1px 1px 2px #646262;
-  background: #fffbef;
+  background: ${(props) => (props.backcolor % 2 == 1 ? "#fffbef" : "#F2F9FF")};
   margin-bottom: 27px;
   .review {
     display: flex;

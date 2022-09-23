@@ -50,7 +50,7 @@ const Review = () => {
     <>
       <S.Reviews>
         {InfoList.map((info) => (
-          <S.Info>
+          <S.Info backcolor={info.id}>
             <p className="review">
               <S.Profile>
                 <Image src={"/images/SideImage.png"} width={40} height={40} />
